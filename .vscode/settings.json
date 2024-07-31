@@ -2,5 +2,6 @@
     "editor.fontLigatures": true,
     "editor.fontVariations": false,
     "editor.fontFamily": "'Fira Code', Menlo, Monaco, 'Courier New', monospace",
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
 }
