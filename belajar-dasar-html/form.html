@@ -10,7 +10,7 @@
 <body>
     <h1>Form Isian</h1>
     <!-- for pada label berfungsi sebagai accesibility -->
-    <form action="#" method="post">
+    <form action="/daftar" method="post">
         <div>
             <label for="name">Nama Lengkap</label>
             <input type="text" placeholder="Nama" id="name">
@@ -27,10 +27,18 @@
             <label for="phone">Phone</label>
             <input type="number" placeholder="Phone" id="phone">
         </div>
-        <div>
-            <label for="color">Color</label>
-            <input type="color" placeholder="Color" id="color">
-        </div>
+        
+        <!-- button type adalah button biasa, tidak ada efeknya pada form -->
+        <button type="button">Button Biasa</button>
+
+        <!-- button type reset otomatis berfungsi sebagai penghapusan data secara massive pada form -->
+        <button type="reset">Reset</button>
+
+        <button>Kirim</button>
+        <!-- input submit dibawah sama saja fungsinya dengan button kirim
+            <input type="submit" value="Kirim"> 
+            <button type="submit">Kirim</button>
+        -->
     </form>
 </body>
 
