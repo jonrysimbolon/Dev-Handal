@@ -72,8 +72,15 @@
             </select>
         </div>
         <div>
+            <div><label for="notes">Catatan</label></div>
+            <!-- cols adalah panjang kolom dan rows adalah panjang baris
+             tapikan kolom dan barisnya bisa di resize pada textareanya, jadi apa gunanya ?
+             jwb: sebagai nilai default, coba isi 1 pasti akan mengecil, tidak bisa diisi 0, karena akan auto bernilai yang lain. -->
+            <textarea name="notes" id="notes" cols="1" rows="1"></textarea>
+        </div>
+        <div>
             <!-- checked berfungsi sebagai pemilihan secara default -->
-            <input type="checkbox" name="term" id="term" checked>
+            <input type="checkbox" name="term" id="term" value="setuju" checked>
             <label for="term">Saya setuju syarat & ketentuan yang berlaku pada halaman ini.</label>
         </div>
         <button>Order</button>
