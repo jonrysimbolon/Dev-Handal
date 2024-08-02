@@ -9,25 +9,33 @@
 
 <body>
     <h1>Form Isian</h1>
+
     <!-- for pada label berfungsi sebagai accesibility -->
+    <!-- attribute 'name' berfungsi sebagai variable untuk dikirim ke..
+      ..programming language seperti PHP dan akan terlihat jelas di url..
+      ..jika 'method' nya GET, akan tetapi jika POST, perlu inspect element dulu..
+      ..dan akses tab Network, lalu lihat ke bawah ke arah tab Header lalu..
+      ..scroll kebawah kebagian Form Data (jika tidak ada, berarti bukan di tab..
+      ..Header melainkan di tab Payload.)  -->
+
     <form action="/daftar" method="post">
         <div>
             <label for="name">Nama Lengkap</label>
-            <input type="text" placeholder="Nama" id="name">
+            <input type="text" placeholder="Nama" id="name" name="name">
         </div>
         <div>
             <label for="email">Email</label>
-            <input type="email" placeholder="Email" id="email">
+            <input type="email" placeholder="Email" id="email" name="email">
         </div>
         <div>
             <label for="password">Password</label>
-            <input type="password" placeholder="Password" id="password">
+            <input type="password" placeholder="Password" id="password" name="password">
         </div>
         <div>
             <label for="phone">Phone</label>
-            <input type="number" placeholder="Phone" id="phone">
+            <input type="number" placeholder="Phone" id="phone" name="phone">
         </div>
-        
+
         <!-- button type adalah button biasa, tidak ada efeknya pada form -->
         <button type="button">Button Biasa</button>
 
