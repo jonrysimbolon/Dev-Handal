@@ -55,8 +55,21 @@
     <form action="/order">
         <label for="baju">Baju</label>
         <div>
+            <!-- checked berfungsi sebagai pemilihan secara default -->
             <input type="radio" name="baju" id="kaos" value="kaos" checked><label for="kaos">Kaos</label>
             <input type="radio" name="baju" id="kemeja" value="kemeja"><label for="kemeja">Kemeja</label>
+        </div>
+        <div>
+            <label for="ukuran">Ukuran</label>
+            <!-- selected berfungsi sebagai pemilihan secara default -->
+            <select name="ukuran" id="ukuran">
+                <option value="">.:Pilih Ukuran:.</option>
+                <option value="s">Small</option>
+                <option value="m" selected>Medium</option>
+                <option value="l">Large</option>
+                <option value="xl">Extra Large</option>
+                <option value="xxl">Double Extra Large</option>
+            </select>
         </div>
         <button>Order</button>
     </form>
