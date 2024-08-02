@@ -1,3 +1,3 @@
 # Dev Handal
 
-- [ ] Belajar Dasar HTML.
+- [ ] Belajar Dasar HTML..
