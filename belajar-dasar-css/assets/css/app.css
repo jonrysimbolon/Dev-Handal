@@ -1,8 +1,8 @@
 h1 {
   text-align: center;
   /* font-weight: 400; */
-  text-decoration: underline rebeccapurple;
-  letter-spacing: -10px;  /*jadi rapat judulnya wkwk :D*/
+  text-decoration: underline wavy rebeccapurple;
+  letter-spacing: -5px;  /*jadi rapat judulnya wkwk :D*/
 }
 
 p {
@@ -10,3 +10,8 @@ p {
     /* font-weight: 600; */
     line-height: 1.5;
 }
+
+/*
+Relative (responsive page): em, rem, vh, vw, %, etc
+Absolute (fix size): px, pt, cm, in, mm
+*/
