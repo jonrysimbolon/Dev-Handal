@@ -1,14 +1,12 @@
-h1{
-    color: red;
-    background-color: blue;
+h1 {
+  text-align: center;
+  /* font-weight: 400; */
+  text-decoration: underline rebeccapurple;
+  letter-spacing: -10px;  /*jadi rapat judulnya wkwk :D*/
 }
 
-button{
-    color: darkviolet;
-    background-color: rgb(210, 180, 140);
-}
-
-p{
-    color: white;
-    background-color: #808080;
+p {
+    text-align: justify;
+    /* font-weight: 600; */
+    line-height: 1.5;
 }
